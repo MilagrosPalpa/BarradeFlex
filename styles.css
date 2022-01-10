@@ -1,0 +1,42 @@
+.nav{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family:'Roboto', sans-serif;;
+    background-color: rgb(63, 60, 60);
+    justify-content: space-between ;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 15px;
+    list-style-type: none;
+
+}
+
+a{
+    display: flex;
+    padding: 0px 9px 0px 9px;
+    color: white;
+    text-decoration: none
+}
+
+
+.btn{    
+    
+    cursor: pointer;
+    background-color: rgb(84, 184, 209);
+    border-color: black;
+    box-shadow: 1.5px 1.5px 0px 0px black;
+    width: 100px;
+    color: white;
+    margin-left: 30px;
+    padding: 2px 0px 2px 0px;
+}
+
+
